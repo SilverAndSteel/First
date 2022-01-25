@@ -28,4 +28,3 @@ with open("cars_sort.csv", 'w', encoding='utf-8') as csv_file:
 with open("cars.json", 'w', encoding='utf-8') as jsonfile:
     for i in countrySort(cars_list):
         json.dump(i, jsonfile, indent=4)
-        print(i)
